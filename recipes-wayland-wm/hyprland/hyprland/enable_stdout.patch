@@ -1,0 +1,13 @@
+diff --git a/src/config/ConfigManager.cpp b/src/config/ConfigManager.cpp
+index 1e7d8177..6521e8f4 100644
+--- a/src/config/ConfigManager.cpp
++++ b/src/config/ConfigManager.cpp
+@@ -129,7 +129,7 @@ void CConfigManager::setDefaultVars() {
+     configValues["debug:damage_blink"].intValue       = 0;
+     configValues["debug:disable_logs"].intValue       = 0;
+     configValues["debug:disable_time"].intValue       = 1;
+-    configValues["debug:enable_stdout_logs"].intValue = 0;
++    configValues["debug:enable_stdout_logs"].intValue = 1;
+     configValues["debug:damage_tracking"].intValue    = DAMAGE_TRACKING_FULL;
+     configValues["debug:manual_crash"].intValue       = 0;
+     configValues["debug:suppress_errors"].intValue    = 0;
